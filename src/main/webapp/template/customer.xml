@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel id="customer" code="customer" name="Customer信息">
+	<colgroup>
+		<col index="A" width="17em"></col>
+		<col index="B" width="17em"></col>
+		<col index="C" width="17em"></col>
+		<col index="D" width="17em"></col>
+		<col index="E" width="17em"></col>
+		<col index="F" width="17em"></col>
+	</colgroup>
+	<title>
+		<tr height="16px">
+			<td rowspan="1" colspan="6" value="Customer信息导入"/>
+		</tr>
+	</title>
+	<thead>
+		<tr height="16px">
+			<th value="customer_id"/>
+			<th value="first_name"/>
+			<th value="last_name"/>
+			<th value="last_update"/>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="16px" firstrow="2" firstcol="0" repeat="5">
+			<td type="numberic" isnullable="false" format="##0"/>
+			<td type="string" isnullable="false" maxlength="50"/>
+			<td type="string" isnullable="false" maxlength="50"/> 
+			<td type="date" isnullable="false" maxlength="50"/>
+			<td type="enum" format="普通会员,VIP1,VIP2,VIP3" isnullable="true"/>
+		</tr>
+	</tbody>
+</excel>

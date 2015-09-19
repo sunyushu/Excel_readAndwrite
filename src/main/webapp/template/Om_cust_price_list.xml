@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel id="customer" code="customer" name="Om_cust_price_list信息">
+	<colgroup>
+		<col index="A" width="17em"></col>
+		<col index="B" width="17em"></col>
+		<col index="C" width="17em"></col>
+		<col index="D" width="17em"></col>
+		<col index="E" width="17em"></col>
+		<col index="F" width="17em"></col>
+		<col index="G" width="17em"></col>
+		<col index="H" width="17em"></col>
+		<col index="I" width="17em"></col>
+		<col index="J" width="17em"></col>
+		<col index="K" width="17em"></col>
+		<col index="L" width="17em"></col>
+		<col index="M" width="17em"></col>
+		<col index="N" width="17em"></col>
+		<col index="O" width="17em"></col>
+		<col index="P" width="17em"></col>
+		<col index="Q" width="17em"></col>
+		<col index="R" width="17em"></col>
+        <col index="S" width="17em"></col>
+		<col index="T" width="17em"></col>
+		<col index="U" width="17em"></col>
+		<col index="V" width="17em"></col>
+		<col index="W" width="17em"></col>
+		<col index="X" width="17em"></col>
+	    <col index="Y" width="17em"></col>
+		<col index="Z" width="17em"></col>
+		<col index="AA" width="17em"></col>
+		<col index="AB" width="17em"></col>
+		<col index="AC" width="17em"></col>
+		<col index="AD" width="17em"></col>
+	    <col index="AE" width="17em"></col>
+		<col index="AF" width="17em"></col>
+		<col index="AG" width="17em"></col>
+		
+	</colgroup>
+	<title>
+		<tr height="16px">
+			<td rowspan="1" colspan="6" value="Om_cust_price_list信息导入"/>
+		</tr>
+	</title>
+	<thead>
+		<tr height="16px">
+			<th value="id"/>
+			<th value="effective_date_from"/>
+			<th value="effective_date_to"/>
+			<th value="user_def1"/>
+			<th value="user_def2"/>
+			<th value="user_def3"/>
+			<th value="user_def4"/>
+			<th value="user_def5"/>
+			<th value="user_def6"/>
+			<th value="user_def7"/>
+			<th value="user_def8"/>
+			<th value="user_def9"/>
+			<th value="user_def10"/>
+			<th value="user_def11"/>
+			<th value="user_def12"/>
+			<th value="user_def13"/>
+			<th value="user_def14"/>
+			<th value="user_def15"/>
+			<th value="user_def16"/>
+			<th value="user_def17"/>
+			<th value="user_def18"/>
+			<th value="user_def19"/>
+			<th value="user_def20"/>
+			<th value="user_def21"/>
+			<th value="user_def22"/>
+			<th value="user_def23"/>
+			<th value="user_def24"/>
+			<th value="user_def25"/>
+			<th value="user_def26"/>
+			<th value="user_def27"/>
+			<th value="user_def28"/>
+			<th value="user_def29"/>
+			<th value="user_def30"/>
+
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="16px" firstrow="2" firstcol="0" repeat="5">
+			<td type="numberic" isnullable="false" format="##0"/>
+			<td type="string" isnullable="false" maxlength="50"/>
+			<td type="string" isnullable="false" maxlength="50"/> 
+			<td type="date" isnullable="false" maxlength="50"/>
+			<td type="enum" format="普通会员,VIP1,VIP2,VIP3" isnullable="true"/>
+		</tr>
+	</tbody>
+</excel>
